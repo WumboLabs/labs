@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26",
+  "generated": "2026-08-27",
   "description": "WumboLabs local lab index: evaluations, hardware baselines, methodology, model stores.",
   "evaluations": [
     {
@@ -56,6 +56,17 @@
       "outcome": "Guarded/limited deployment suitability: strong reviewed local coding/technical-assistant evidence under tested configuration; not recommended as an unguarded daily driver or unattended autonomous agent",
       "localmaxxing_status": "APPROVED (speed x2: cmt3jngz, cmt3jp2c; benchmark suite APPROVED/PUBLIC)",
       "wumbocore_readiness": "READY"
+    },
+    {
+      "slug": "ornith-1.5-9b",
+      "display": "Ornith 1.5 9B",
+      "evaluation_classification": "COMPLETED_FULL_PROTOCOL_CHARACTERIZATION",
+      "proposed_repo": "WumboLabs/eval-ornith-1.5-9b",
+      "current_campaign": "WELP",
+      "hardware": "WumboJetsII",
+      "outcome": "NOT_READY for role assignment: Phase 3 ADVANCE (0.922) but Phase 4 reliability gate FAIL (mechanical 1/21; dominated by scorer-lexicon false negatives, genuine failures remain). Useful context 24576 under 12GB profile; decode 102.04 t/s; screening soak clean.",
+      "localmaxxing_status": "NOT_SUBMITTED (package record prepared; submission requires explicit user authorization)",
+      "wumbocore_readiness": "PENDING"
     }
   ],
   "hardware": [
