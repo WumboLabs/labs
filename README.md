@@ -15,4 +15,6 @@ This directory is the index, NOT the evidence monorepo. Public campaign evidence
 
 Future public repo name for a model: `WumboLabs/eval-<slug>`.
 
+Current-facing catalog presentation uses WELP. Do not expose internal frozen campaign identifiers in `catalog.json`. Frozen provenance stays in the eval evidence repos.
+
 Do not duplicate full campaign evidence here.
