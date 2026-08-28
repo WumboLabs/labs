@@ -65,8 +65,8 @@
       "current_campaign": "WELP",
       "hardware": "WumboJetsII",
       "outcome": "NOT_READY for role assignment: Phase 3 ADVANCE (0.922) but Phase 4 reliability gate FAIL (mechanical 1/21; dominated by scorer-lexicon false negatives, genuine failures remain). Useful context 24576 under 12GB profile; decode 102.04 t/s; screening soak clean.",
-      "localmaxxing_status": "NOT_SUBMITTED (package record prepared; submission requires explicit user authorization)",
-      "wumbocore_readiness": "PENDING"
+      "localmaxxing_status": "APPROVED (speed cmtc6sopl0007o601d7hqrj1z; 102.04 t/s decode)",
+      "wumbocore_readiness": "READY"
     }
   ],
   "hardware": [
